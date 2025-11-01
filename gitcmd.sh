@@ -7,6 +7,7 @@ git remote add origin https://github.com/2018hw86786/practise.git
 git add .
 git commit -m "first coomit"
 git branch -M main
+git pull --rebase origin main || true
 git push -u origin main
 git push --set-upstream origin main
 git push
