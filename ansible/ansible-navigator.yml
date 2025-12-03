@@ -17,7 +17,7 @@ ansible-navigator:
   # Logging and Artifacts
   logging:
     level: info
-    file: ./ansible-navigator.log
+    file: ./ansible-logs/ansible-navigator.log
 
   playbook-artifact:
     enable: true
