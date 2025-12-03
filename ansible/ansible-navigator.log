@@ -1,0 +1,306 @@
+2025-12-03T11:47:11.588723+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2025-12-03T11:47:11.589824+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2025-12-03T11:47:11.590121+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /home/sdrcp/Documents/python/ansible/ansible.cfg
+2025-12-03T11:47:11.590257+00:00 INFO 'ansible_navigator.main' Collection doc cache: version was empty or incorrect, rebuilding
+2025-12-03T11:47:11.590350+00:00 INFO 'ansible_navigator.main' Collection doc cache: 'current version' is '1.1'
+2025-12-03T11:47:11.590607+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2025-12-03T11:47:12.828859+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' Image inspection failed, image assumed to be corrupted or missing
+2025-12-03T11:47:12.829069+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stdout: []
+
+2025-12-03T11:47:12.829171+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stderr: Error: quay.io/ansible/creator-ee:latest: image not known
+
+2025-12-03T11:47:12.829445+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Execution environment image name:: quay.io/ansible/creator-ee:latest
+2025-12-03T11:47:12.829549+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Execution environment image tag:: latest
+2025-12-03T11:47:12.829627+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Execution environment pull arguments:: None
+2025-12-03T11:47:12.829694+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Execution environment pull policy:: missing
+2025-12-03T11:47:12.829755+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Execution environment pull needed:: True
+2025-12-03T11:49:01.982599+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Execution environment updated
+2025-12-03T11:49:15.028707+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2025-12-03T11:49:15.029248+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2025-12-03T11:49:15.029347+00:00 DEBUG 'ansible_navigator.main' Brlapi==0.8.7 
+2025-12-03T11:49:15.029408+00:00 DEBUG 'ansible_navigator.main' CairoSVG==2.7.1 
+2025-12-03T11:49:15.029461+00:00 DEBUG 'ansible_navigator.main' Jinja2==3.1.6 
+2025-12-03T11:49:15.029511+00:00 DEBUG 'ansible_navigator.main' MarkupSafe==3.0.3 
+2025-12-03T11:49:15.029557+00:00 DEBUG 'ansible_navigator.main' Parsley==1.3 
+2025-12-03T11:49:15.029602+00:00 DEBUG 'ansible_navigator.main' PyAudio==0.2.13 
+2025-12-03T11:49:15.029645+00:00 DEBUG 'ansible_navigator.main' PySocks==1.7.1 
+2025-12-03T11:49:15.029687+00:00 DEBUG 'ansible_navigator.main' PyYAML==6.0.2 
+2025-12-03T11:49:15.029728+00:00 DEBUG 'ansible_navigator.main' ansible-builder==3.1.1 
+2025-12-03T11:49:15.029769+00:00 DEBUG 'ansible_navigator.main' ansible-compat==25.12.0 
+2025-12-03T11:49:15.029812+00:00 DEBUG 'ansible_navigator.main' ansible-core==2.20.0 
+2025-12-03T11:49:15.029852+00:00 DEBUG 'ansible_navigator.main' ansible-lint==25.12.0 
+2025-12-03T11:49:15.029892+00:00 DEBUG 'ansible_navigator.main' ansible-navigator==25.12.0 
+2025-12-03T11:49:15.029933+00:00 DEBUG 'ansible_navigator.main' ansible-runner==2.4.2 
+2025-12-03T11:49:15.029988+00:00 DEBUG 'ansible_navigator.main' anyio==4.11.0 /usr/lib/python3.14/site-packages/anyio/__init__.py
+2025-12-03T11:49:15.030030+00:00 DEBUG 'ansible_navigator.main' attrs==25.4.0 /home/sdrcp/.local/lib/python3.14/site-packages/attrs/__init__.py
+2025-12-03T11:49:15.030071+00:00 DEBUG 'ansible_navigator.main' bindep==2.13.0 /home/sdrcp/.local/lib/python3.14/site-packages/bindep/__init__.py
+2025-12-03T11:49:15.030112+00:00 DEBUG 'ansible_navigator.main' black==25.11.0 /home/sdrcp/.local/lib/python3.14/site-packages/black/__init__.cpython-314-x86_64-linux-gnu.so
+2025-12-03T11:49:15.030151+00:00 DEBUG 'ansible_navigator.main' blivet-gui==2.6.0 
+2025-12-03T11:49:15.030201+00:00 DEBUG 'ansible_navigator.main' blivet==3.12.1 /usr/lib/python3.14/site-packages/blivet/__init__.py
+2025-12-03T11:49:15.030248+00:00 DEBUG 'ansible_navigator.main' boto3==1.42.0 /usr/lib/python3.14/site-packages/boto3/__init__.py
+2025-12-03T11:49:15.030288+00:00 DEBUG 'ansible_navigator.main' botocore==1.41.6 /usr/lib/python3.14/site-packages/botocore/__init__.py
+2025-12-03T11:49:15.030328+00:00 DEBUG 'ansible_navigator.main' bracex==2.6 /home/sdrcp/.local/lib/python3.14/site-packages/bracex/__init__.py
+2025-12-03T11:49:15.030367+00:00 DEBUG 'ansible_navigator.main' certifi==2025.7.9 /usr/lib/python3.14/site-packages/certifi/__init__.py
+2025-12-03T11:49:15.030407+00:00 DEBUG 'ansible_navigator.main' cffi==2.0.0 /usr/lib64/python3.14/site-packages/cffi/__init__.py
+2025-12-03T11:49:15.030449+00:00 DEBUG 'ansible_navigator.main' charset-normalizer==3.4.3 
+2025-12-03T11:49:15.030499+00:00 DEBUG 'ansible_navigator.main' click==8.3.1 /home/sdrcp/.local/lib/python3.14/site-packages/click/__init__.py
+2025-12-03T11:49:15.030564+00:00 DEBUG 'ansible_navigator.main' crypt_r==3.13.1 /usr/lib64/python3.14/site-packages/crypt_r.py
+2025-12-03T11:49:15.030623+00:00 DEBUG 'ansible_navigator.main' cryptography==46.0.3 /home/sdrcp/.local/lib/python3.14/site-packages/cryptography/__init__.py
+2025-12-03T11:49:15.030680+00:00 DEBUG 'ansible_navigator.main' cupshelpers==1.0 /usr/lib/python3.14/site-packages/cupshelpers/__init__.py
+2025-12-03T11:49:15.030735+00:00 DEBUG 'ansible_navigator.main' dasbus==1.7 /usr/lib/python3.14/site-packages/dasbus/__init__.py
+2025-12-03T11:49:15.030790+00:00 DEBUG 'ansible_navigator.main' dbus-python==1.4.0 
+2025-12-03T11:49:15.030845+00:00 DEBUG 'ansible_navigator.main' dbus_next==0.2.3 /usr/lib/python3.14/site-packages/dbus_next/__init__.py
+2025-12-03T11:49:15.030900+00:00 DEBUG 'ansible_navigator.main' defusedxml==0.7.1 /usr/lib/python3.14/site-packages/defusedxml/__init__.py
+2025-12-03T11:49:15.030954+00:00 DEBUG 'ansible_navigator.main' distro==1.9.0 /usr/lib/python3.14/site-packages/distro/__init__.py
+2025-12-03T11:49:15.031018+00:00 DEBUG 'ansible_navigator.main' file-magic==0.4.0 
+2025-12-03T11:49:15.031073+00:00 DEBUG 'ansible_navigator.main' filelock==3.20.0 /home/sdrcp/.local/lib/python3.14/site-packages/filelock/__init__.py
+2025-12-03T11:49:15.031128+00:00 DEBUG 'ansible_navigator.main' h11==0.16.0 /usr/lib/python3.14/site-packages/h11/__init__.py
+2025-12-03T11:49:15.031184+00:00 DEBUG 'ansible_navigator.main' initial-setup==0.3.101 
+2025-12-03T11:49:15.031239+00:00 DEBUG 'ansible_navigator.main' iso639==0.1.4 /usr/lib/python3.14/site-packages/iso639/__init__.py
+2025-12-03T11:49:15.031293+00:00 DEBUG 'ansible_navigator.main' jmespath==1.0.1 /usr/lib/python3.14/site-packages/jmespath/__init__.py
+2025-12-03T11:49:15.031348+00:00 DEBUG 'ansible_navigator.main' jsonschema-specifications==2025.9.1 
+2025-12-03T11:49:15.031402+00:00 DEBUG 'ansible_navigator.main' jsonschema==4.25.1 /home/sdrcp/.local/lib/python3.14/site-packages/jsonschema/__init__.py
+2025-12-03T11:49:15.031457+00:00 DEBUG 'ansible_navigator.main' langtable==0.0.69 /usr/lib/python3.14/site-packages/langtable/__init__.py
+2025-12-03T11:49:15.031512+00:00 DEBUG 'ansible_navigator.main' libcomps==0.1.23 /usr/lib64/python3.14/site-packages/libcomps/__init__.py
+2025-12-03T11:49:15.031566+00:00 DEBUG 'ansible_navigator.main' lockfile==0.12.2 /home/sdrcp/.local/lib/python3.14/site-packages/lockfile/__init__.py
+2025-12-03T11:49:15.031621+00:00 DEBUG 'ansible_navigator.main' louis==3.33.0 /usr/lib/python3.14/site-packages/louis/__init__.py
+2025-12-03T11:49:15.031676+00:00 DEBUG 'ansible_navigator.main' lxml==6.0.1 /usr/lib64/python3.14/site-packages/lxml/__init__.py
+2025-12-03T11:49:15.031730+00:00 DEBUG 'ansible_navigator.main' mypy_extensions==1.1.0 /home/sdrcp/.local/lib/python3.14/site-packages/mypy_extensions.py
+2025-12-03T11:49:15.031785+00:00 DEBUG 'ansible_navigator.main' nftables==0.1 /usr/lib/python3.14/site-packages/nftables/__init__.py
+2025-12-03T11:49:15.031839+00:00 DEBUG 'ansible_navigator.main' olefile==0.47 /usr/lib/python3.14/site-packages/olefile/__init__.py
+2025-12-03T11:49:15.031900+00:00 DEBUG 'ansible_navigator.main' onigurumacffi==1.4.1 /home/sdrcp/.local/lib/python3.14/site-packages/onigurumacffi.py
+2025-12-03T11:49:15.031971+00:00 DEBUG 'ansible_navigator.main' pathspec==0.12.1 /home/sdrcp/.local/lib/python3.14/site-packages/pathspec/__init__.py
+2025-12-03T11:49:15.032027+00:00 DEBUG 'ansible_navigator.main' pbr==7.0.3 /home/sdrcp/.local/lib/python3.14/site-packages/pbr/__init__.py
+2025-12-03T11:49:15.032082+00:00 DEBUG 'ansible_navigator.main' pexpect==4.9.0 /usr/lib/python3.14/site-packages/pexpect/__init__.py
+2025-12-03T11:49:15.032137+00:00 DEBUG 'ansible_navigator.main' pid==3.0.4 /usr/lib/python3.14/site-packages/pid/__init__.py
+2025-12-03T11:49:15.032194+00:00 DEBUG 'ansible_navigator.main' pillow==11.3.0 
+2025-12-03T11:49:15.032258+00:00 DEBUG 'ansible_navigator.main' pip==25.1.1 /usr/lib/python3.14/site-packages/pip/__init__.py
+2025-12-03T11:49:15.032313+00:00 DEBUG 'ansible_navigator.main' platformdirs==4.5.0 /home/sdrcp/.local/lib/python3.14/site-packages/platformdirs/__init__.py
+2025-12-03T11:49:15.032368+00:00 DEBUG 'ansible_navigator.main' ply==3.11 /usr/lib/python3.14/site-packages/ply/__init__.py
+2025-12-03T11:49:15.032423+00:00 DEBUG 'ansible_navigator.main' productmd==1.48 /usr/lib/python3.14/site-packages/productmd/__init__.py
+2025-12-03T11:49:15.032478+00:00 DEBUG 'ansible_navigator.main' psutil==7.0.0 /usr/lib64/python3.14/site-packages/psutil/__init__.py
+2025-12-03T11:49:15.032532+00:00 DEBUG 'ansible_navigator.main' pwquality==1.4.5 /usr/lib64/python3.14/site-packages/pwquality.cpython-314-x86_64-linux-gnu.so
+2025-12-03T11:49:15.032587+00:00 DEBUG 'ansible_navigator.main' pycparser==2.22 /usr/lib/python3.14/site-packages/pycparser/__init__.py
+2025-12-03T11:49:15.032642+00:00 DEBUG 'ansible_navigator.main' pycups==2.0.4 
+2025-12-03T11:49:15.032696+00:00 DEBUG 'ansible_navigator.main' pyenchant==3.2.2 
+2025-12-03T11:49:15.032752+00:00 DEBUG 'ansible_navigator.main' pykickstart==3.66 /usr/lib/python3.14/site-packages/pykickstart/__init__.py
+2025-12-03T11:49:15.032806+00:00 DEBUG 'ansible_navigator.main' pyparted==3.13.0 
+2025-12-03T11:49:15.032861+00:00 DEBUG 'ansible_navigator.main' pystray==0.17.3 /usr/lib/python3.14/site-packages/pystray/__init__.py
+2025-12-03T11:49:15.032917+00:00 DEBUG 'ansible_navigator.main' python-augeas==1.2.0 
+2025-12-03T11:49:15.032980+00:00 DEBUG 'ansible_navigator.main' python-daemon==3.1.2 
+2025-12-03T11:49:15.033036+00:00 DEBUG 'ansible_navigator.main' python-dateutil==2.9.0.post0 
+2025-12-03T11:49:15.033091+00:00 DEBUG 'ansible_navigator.main' python-gettext==4.0 
+2025-12-03T11:49:15.033147+00:00 DEBUG 'ansible_navigator.main' python-manatools==0.0.4 
+2025-12-03T11:49:15.033207+00:00 DEBUG 'ansible_navigator.main' python-meh==0.52 
+2025-12-03T11:49:15.033271+00:00 DEBUG 'ansible_navigator.main' python-xlib==0.33 
+2025-12-03T11:49:15.033334+00:00 DEBUG 'ansible_navigator.main' pytokens==0.3.0 /home/sdrcp/.local/lib/python3.14/site-packages/pytokens/__init__.py
+2025-12-03T11:49:15.033400+00:00 DEBUG 'ansible_navigator.main' pyudev==0.24.3 /usr/lib/python3.14/site-packages/pyudev/__init__.py
+2025-12-03T11:49:15.033464+00:00 DEBUG 'ansible_navigator.main' pyxdg==0.27 
+2025-12-03T11:49:15.033529+00:00 DEBUG 'ansible_navigator.main' referencing==0.37.0 /home/sdrcp/.local/lib/python3.14/site-packages/referencing/__init__.py
+2025-12-03T11:49:15.033594+00:00 DEBUG 'ansible_navigator.main' regex==2025.10.23 /usr/lib64/python3.14/site-packages/regex/__init__.py
+2025-12-03T11:49:15.033658+00:00 DEBUG 'ansible_navigator.main' requests-file==2.0.0 
+2025-12-03T11:49:15.033722+00:00 DEBUG 'ansible_navigator.main' requests-ftp==0.3.1 
+2025-12-03T11:49:15.033785+00:00 DEBUG 'ansible_navigator.main' requests==2.32.5 /usr/lib/python3.14/site-packages/requests/__init__.py
+2025-12-03T11:49:15.033853+00:00 DEBUG 'ansible_navigator.main' resolvelib==1.2.1 /home/sdrcp/.local/lib/python3.14/site-packages/resolvelib/__init__.py
+2025-12-03T11:49:15.033908+00:00 DEBUG 'ansible_navigator.main' rpds-py==0.30.0 
+2025-12-03T11:49:15.033993+00:00 DEBUG 'ansible_navigator.main' ruamel.yaml==0.18.16 /home/sdrcp/.local/lib/python3.14/site-packages/ruamel/yaml/__init__.py
+2025-12-03T11:49:15.034069+00:00 DEBUG 'ansible_navigator.main' s3transfer==0.16.0 /usr/lib/python3.14/site-packages/s3transfer/__init__.py
+2025-12-03T11:49:15.034131+00:00 DEBUG 'ansible_navigator.main' selinux==3.9 /usr/lib64/python3.14/site-packages/selinux/__init__.py
+2025-12-03T11:49:15.034191+00:00 DEBUG 'ansible_navigator.main' sepolicy==3.9 /usr/lib/python3.14/site-packages/sepolicy/__init__.py
+2025-12-03T11:49:15.034255+00:00 DEBUG 'ansible_navigator.main' setools==4.6.0 /usr/lib64/python3.14/site-packages/setools/__init__.py
+2025-12-03T11:49:15.034320+00:00 DEBUG 'ansible_navigator.main' setroubleshoot==3.3.33 /usr/lib/python3.14/site-packages/setroubleshoot/__init__.py
+2025-12-03T11:49:15.034384+00:00 DEBUG 'ansible_navigator.main' setuptools==80.9.0 /home/sdrcp/.local/lib/python3.14/site-packages/setuptools/__init__.py
+2025-12-03T11:49:15.034448+00:00 DEBUG 'ansible_navigator.main' simpleaudio==1.0.4 /usr/lib64/python3.14/site-packages/simpleaudio/__init__.py
+2025-12-03T11:49:15.034505+00:00 DEBUG 'ansible_navigator.main' simpleline==1.9.0 /usr/lib/python3.14/site-packages/simpleline/__init__.py
+2025-12-03T11:49:15.034564+00:00 DEBUG 'ansible_navigator.main' six==1.17.0 /usr/lib/python3.14/site-packages/six.py
+2025-12-03T11:49:15.034621+00:00 DEBUG 'ansible_navigator.main' sniffio==1.3.1 /usr/lib/python3.14/site-packages/sniffio/__init__.py
+2025-12-03T11:49:15.034678+00:00 DEBUG 'ansible_navigator.main' sos==4.10.1 /usr/lib/python3.14/site-packages/sos/__init__.py
+2025-12-03T11:49:15.034736+00:00 DEBUG 'ansible_navigator.main' subprocess-tee==0.4.2 
+2025-12-03T11:49:15.034798+00:00 DEBUG 'ansible_navigator.main' systemd-python==235 
+2025-12-03T11:49:15.034858+00:00 DEBUG 'ansible_navigator.main' tzdata==2025.2 /home/sdrcp/.local/lib/python3.14/site-packages/tzdata/__init__.py
+2025-12-03T11:49:15.034925+00:00 DEBUG 'ansible_navigator.main' wcmatch==10.1 /home/sdrcp/.local/lib/python3.14/site-packages/wcmatch/__init__.py
+2025-12-03T11:49:15.035001+00:00 DEBUG 'ansible_navigator.main' webencodings==0.5.1 /usr/lib/python3.14/site-packages/webencodings/__init__.py
+2025-12-03T11:49:15.035066+00:00 DEBUG 'ansible_navigator.main' xkbregistry==0.3 /usr/lib64/python3.14/site-packages/xkbregistry/__init__.py
+2025-12-03T11:49:15.035132+00:00 DEBUG 'ansible_navigator.main' yamllint==1.37.1 /home/sdrcp/.local/lib/python3.14/site-packages/yamllint/__init__.py
+2025-12-03T11:49:15.035199+00:00 DEBUG 'ansible_navigator.main' Default collection_doc_cache_path set to: /home/sdrcp/.cache/ansible-navigator/collection_doc_cache.db
+2025-12-03T11:49:15.035266+00:00 DEBUG 'ansible_navigator.main' EDITOR environment variable set as '/usr/bin/nano'
+2025-12-03T11:49:15.035330+00:00 DEBUG 'ansible_navigator.main' Default editor_command set to: /usr/bin/nano {filename}
+2025-12-03T11:49:15.035396+00:00 DEBUG 'ansible_navigator.main' No config file set by ANSIBLE_NAVIGATOR_CONFIG
+2025-12-03T11:49:15.035461+00:00 DEBUG 'ansible_navigator.main' Looking in /home/sdrcp/.ansible-navigator
+2025-12-03T11:49:15.035525+00:00 DEBUG 'ansible_navigator.main' Looking for '/home/sdrcp/.ansible-navigator.yml', '/home/sdrcp/.ansible-navigator.yaml' and '/home/sdrcp/.ansible-navigator.json'
+2025-12-03T11:49:15.035583+00:00 DEBUG 'ansible_navigator.main' Found 0: 
+2025-12-03T11:49:15.035645+00:00 DEBUG 'ansible_navigator.main' Looking in /home/sdrcp/Documents/python/ansible/ansible-navigator
+2025-12-03T11:49:15.035713+00:00 DEBUG 'ansible_navigator.main' Looking for '/home/sdrcp/Documents/python/ansible/ansible-navigator.yml', '/home/sdrcp/Documents/python/ansible/ansible-navigator.yaml' and '/home/sdrcp/Documents/python/ansible/ansible-navigator.json'
+2025-12-03T11:49:15.035775+00:00 DEBUG 'ansible_navigator.main' Found 1: '/home/sdrcp/Documents/python/ansible/ansible-navigator.yml'
+2025-12-03T11:49:15.035840+00:00 DEBUG 'ansible_navigator.main' All found 1: '/home/sdrcp/Documents/python/ansible/ansible-navigator.yml'
+2025-12-03T11:49:15.035912+00:00 DEBUG 'ansible_navigator.main' Using: /home/sdrcp/Documents/python/ansible/ansible-navigator.yml
+2025-12-03T11:49:15.035993+00:00 DEBUG 'ansible_navigator.main' Using settings file at /home/sdrcp/Documents/python/ansible/ansible-navigator.yml in search path
+2025-12-03T11:49:15.036058+00:00 DEBUG 'ansible_navigator.main' Command provided: 'list'
+2025-12-03T11:49:15.036126+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible-runner.artifact-dir not found in settings file
+2025-12-03T11:49:15.036189+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible-runner.rotate-artifacts-count not found in settings file
+2025-12-03T11:49:15.036252+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible-runner.timeout not found in settings file
+2025-12-03T11:49:15.036314+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible-runner.job-events not found in settings file
+2025-12-03T11:49:15.036376+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.app not found in settings file
+2025-12-03T11:49:15.036439+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible.cmdline not found in settings file
+2025-12-03T11:49:15.036500+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.collection-doc-cache-path not found in settings file
+2025-12-03T11:49:15.036562+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible.config.path not found in settings file
+2025-12-03T11:49:15.036624+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.execution-environment.container-options not found in settings file
+2025-12-03T11:49:15.036686+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.color.enable not found in settings file
+2025-12-03T11:49:15.036748+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.enable-prompts not found in settings file
+2025-12-03T11:49:15.036810+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.exec.command not found in settings file
+2025-12-03T11:49:15.036873+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.exec.shell not found in settings file
+2025-12-03T11:49:15.036936+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.execution-environment.volume-mounts not found in settings file
+2025-12-03T11:49:15.037011+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.format not found in settings file
+2025-12-03T11:49:15.037075+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible-builder.help not found in settings file
+2025-12-03T11:49:15.037138+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible.config.help not found in settings file
+2025-12-03T11:49:15.037200+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible.doc.help not found in settings file
+2025-12-03T11:49:15.037263+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible.inventory.help not found in settings file
+2025-12-03T11:49:15.037324+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible.playbook.help not found in settings file
+2025-12-03T11:49:15.037388+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.images.details not found in settings file
+2025-12-03T11:49:15.037449+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible.inventory.entries not found in settings file
+2025-12-03T11:49:15.037510+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.inventory-columns not found in settings file
+2025-12-03T11:49:15.037573+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible-lint.config not found in settings file
+2025-12-03T11:49:15.037635+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible-lint.lintables not found in settings file
+2025-12-03T11:49:15.037696+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.logging.append not found in settings file
+2025-12-03T11:49:15.037759+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.color.osc4 not found in settings file
+2025-12-03T11:49:15.037821+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.execution-environment.environment-variables.pass not found in settings file
+2025-12-03T11:49:15.037891+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible.playbook.path not found in settings file
+2025-12-03T11:49:15.037968+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.playbook-artifact.replay not found in settings file
+2025-12-03T11:49:15.038031+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible.doc.plugin.name not found in settings file
+2025-12-03T11:49:15.038075+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible.doc.plugin.type not found in settings file
+2025-12-03T11:49:15.038115+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.execution-environment.pull.arguments not found in settings file
+2025-12-03T11:49:15.038175+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.execution-environment.environment-variables.set not found in settings file
+2025-12-03T11:49:15.038240+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.settings.effective not found in settings file
+2025-12-03T11:49:15.038309+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.settings.sample not found in settings file
+2025-12-03T11:49:15.038373+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.settings.schema not found in settings file
+2025-12-03T11:49:15.038435+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.settings.sources not found in settings file
+2025-12-03T11:49:15.038488+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.time-zone not found in settings file
+2025-12-03T11:49:15.038529+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible-builder.workdir not found in settings file
+2025-12-03T11:49:15.038589+00:00 WARNING 'ansible_navigator.main' Configuration errors encountered, rolling back to previous configuration.
+2025-12-03T11:49:15.038632+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: ansible_runner_artifact_dir = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.038673+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: ansible_runner_rotate_artifacts_count = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.038712+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: ansible_runner_timeout = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.038752+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: ansible_runner_write_job_events = 'False' (bool/Defaults)
+2025-12-03T11:49:15.038792+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: app = 'welcome' (str/Defaults)
+2025-12-03T11:49:15.038835+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: cmdline = '['list']' (list/Command line)
+2025-12-03T11:49:15.038893+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: collection_doc_cache_path = '/home/sdrcp/.cache/ansible-navigator/collection_doc_cache.db' (str/Defaults)
+2025-12-03T11:49:15.038970+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: config = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.039041+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: container_engine = 'podman' (str/Settings file)
+2025-12-03T11:49:15.039090+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: container_options = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.039133+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: display_color = 'True' (bool/Defaults)
+2025-12-03T11:49:15.039173+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: editor_command = 'nano' (str/Settings file)
+2025-12-03T11:49:15.039213+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: editor_console = 'True' (bool/Settings file)
+2025-12-03T11:49:15.039253+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: enable_prompts = 'False' (bool/Defaults)
+2025-12-03T11:49:15.039293+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: exec_command = '/bin/bash' (str/Defaults)
+2025-12-03T11:49:15.039332+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: exec_shell = 'True' (bool/Defaults)
+2025-12-03T11:49:15.039372+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: execution_environment = 'True' (bool/Settings file)
+2025-12-03T11:49:15.039412+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: execution_environment_image = 'quay.io/ansible/creator-ee:latest' (str/Settings file)
+2025-12-03T11:49:15.039459+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: execution_environment_volume_mounts = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.039507+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: format = 'yaml' (str/Defaults)
+2025-12-03T11:49:15.039548+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: help_builder = 'False' (bool/Defaults)
+2025-12-03T11:49:15.039587+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: help_config = 'False' (bool/Defaults)
+2025-12-03T11:49:15.039627+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: help_doc = 'False' (bool/Defaults)
+2025-12-03T11:49:15.039666+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: help_inventory = 'False' (bool/Defaults)
+2025-12-03T11:49:15.039706+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: help_playbook = 'False' (bool/Defaults)
+2025-12-03T11:49:15.039746+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: images_details = '['everything']' (list/Defaults)
+2025-12-03T11:49:15.039785+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: inventory = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.039825+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: inventory_column = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.039865+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: lint_config = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.039905+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: lintables = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.039944+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: log_append = 'True' (bool/Defaults)
+2025-12-03T11:49:15.039997+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: log_file = './ansible-navigator.log' (str/Settings file)
+2025-12-03T11:49:15.040037+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: log_level = 'info' (str/Settings file)
+2025-12-03T11:49:15.040078+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: mode = 'interactive' (str/Settings file)
+2025-12-03T11:49:15.040117+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: osc4 = 'True' (bool/Defaults)
+2025-12-03T11:49:15.040157+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: pass_environment_variable = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.040197+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: playbook = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.040237+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: playbook_artifact_enable = 'True' (bool/Settings file)
+2025-12-03T11:49:15.040276+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: playbook_artifact_replay = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.040316+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: playbook_artifact_save_as = '{playbook_name}-artifact-{time_stamp}.json' (str/Settings file)
+2025-12-03T11:49:15.040356+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: plugin_name = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.040396+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: plugin_type = 'module' (str/Defaults)
+2025-12-03T11:49:15.040436+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: pull_arguments = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.040475+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: pull_policy = 'missing' (str/Settings file)
+2025-12-03T11:49:15.040515+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: set_environment_variable = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.040555+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: settings_effective = 'False' (bool/Defaults)
+2025-12-03T11:49:15.040594+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: settings_sample = 'False' (bool/Defaults)
+2025-12-03T11:49:15.040633+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: settings_schema = 'json' (str/Defaults)
+2025-12-03T11:49:15.040673+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: settings_sources = 'False' (bool/Defaults)
+2025-12-03T11:49:15.040714+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: time_zone = 'UTC' (str/Defaults)
+2025-12-03T11:49:15.040760+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: workdir = '/home/sdrcp/Documents/python/ansible' (str/Defaults)
+2025-12-03T11:49:15.040806+00:00 DEBUG 'ansible_navigator.main' After rollback: ansible_runner_artifact_dir = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.040846+00:00 DEBUG 'ansible_navigator.main' After rollback: ansible_runner_rotate_artifacts_count = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.040886+00:00 DEBUG 'ansible_navigator.main' After rollback: ansible_runner_timeout = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.040926+00:00 DEBUG 'ansible_navigator.main' After rollback: ansible_runner_write_job_events = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.040980+00:00 DEBUG 'ansible_navigator.main' After rollback: app = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.041024+00:00 DEBUG 'ansible_navigator.main' After rollback: cmdline = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.041065+00:00 DEBUG 'ansible_navigator.main' After rollback: collection_doc_cache_path = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.041104+00:00 DEBUG 'ansible_navigator.main' After rollback: config = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.041144+00:00 DEBUG 'ansible_navigator.main' After rollback: container_engine = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.041184+00:00 DEBUG 'ansible_navigator.main' After rollback: container_options = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.041224+00:00 DEBUG 'ansible_navigator.main' After rollback: display_color = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.041264+00:00 DEBUG 'ansible_navigator.main' After rollback: editor_command = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.041304+00:00 DEBUG 'ansible_navigator.main' After rollback: editor_console = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.041343+00:00 DEBUG 'ansible_navigator.main' After rollback: enable_prompts = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.041383+00:00 DEBUG 'ansible_navigator.main' After rollback: exec_command = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.041423+00:00 DEBUG 'ansible_navigator.main' After rollback: exec_shell = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.041463+00:00 DEBUG 'ansible_navigator.main' After rollback: execution_environment = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.041503+00:00 DEBUG 'ansible_navigator.main' After rollback: execution_environment_image = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.041543+00:00 DEBUG 'ansible_navigator.main' After rollback: execution_environment_volume_mounts = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.041582+00:00 DEBUG 'ansible_navigator.main' After rollback: format = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.041622+00:00 DEBUG 'ansible_navigator.main' After rollback: help_builder = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.041662+00:00 DEBUG 'ansible_navigator.main' After rollback: help_config = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.041701+00:00 DEBUG 'ansible_navigator.main' After rollback: help_doc = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.041741+00:00 DEBUG 'ansible_navigator.main' After rollback: help_inventory = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.041780+00:00 DEBUG 'ansible_navigator.main' After rollback: help_playbook = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.041820+00:00 DEBUG 'ansible_navigator.main' After rollback: images_details = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.041860+00:00 DEBUG 'ansible_navigator.main' After rollback: inventory = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.041899+00:00 DEBUG 'ansible_navigator.main' After rollback: inventory_column = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.041939+00:00 DEBUG 'ansible_navigator.main' After rollback: lint_config = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.041998+00:00 DEBUG 'ansible_navigator.main' After rollback: lintables = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.042045+00:00 DEBUG 'ansible_navigator.main' After rollback: log_append = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.042090+00:00 DEBUG 'ansible_navigator.main' After rollback: log_file = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.042130+00:00 DEBUG 'ansible_navigator.main' After rollback: log_level = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.042169+00:00 DEBUG 'ansible_navigator.main' After rollback: mode = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.042209+00:00 DEBUG 'ansible_navigator.main' After rollback: osc4 = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.042253+00:00 DEBUG 'ansible_navigator.main' After rollback: pass_environment_variable = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.042293+00:00 DEBUG 'ansible_navigator.main' After rollback: playbook = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.042333+00:00 DEBUG 'ansible_navigator.main' After rollback: playbook_artifact_enable = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.042372+00:00 DEBUG 'ansible_navigator.main' After rollback: playbook_artifact_replay = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.042412+00:00 DEBUG 'ansible_navigator.main' After rollback: playbook_artifact_save_as = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.042451+00:00 DEBUG 'ansible_navigator.main' After rollback: plugin_name = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.042491+00:00 DEBUG 'ansible_navigator.main' After rollback: plugin_type = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.042530+00:00 DEBUG 'ansible_navigator.main' After rollback: pull_arguments = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.042569+00:00 DEBUG 'ansible_navigator.main' After rollback: pull_policy = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.042609+00:00 DEBUG 'ansible_navigator.main' After rollback: set_environment_variable = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.042648+00:00 DEBUG 'ansible_navigator.main' After rollback: settings_effective = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.042687+00:00 DEBUG 'ansible_navigator.main' After rollback: settings_sample = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.042727+00:00 DEBUG 'ansible_navigator.main' After rollback: settings_schema = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.042766+00:00 DEBUG 'ansible_navigator.main' After rollback: settings_sources = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.042806+00:00 DEBUG 'ansible_navigator.main' After rollback: time_zone = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.042845+00:00 DEBUG 'ansible_navigator.main' After rollback: workdir = 'Not set' (Constants/Not set)
+2025-12-03T11:49:15.042886+00:00 DEBUG 'ansible_navigator.main' Configuration rollback complete.
+2025-12-03T11:49:15.042926+00:00 DEBUG 'ansible_navigator.main' Collection doc cache not mounted
+2025-12-03T11:49:15.042991+00:00 WARNING 'ansible_navigator.main' Issues were found while applying the settings.
+2025-12-03T11:49:15.043041+00:00 INFO 'ansible_navigator.main' Command provided: 'list'
+2025-12-03T11:49:15.043091+00:00 ERROR 'ansible_navigator.main' argument {subcommand} --help: invalid choice: 'list' (choose from builder, collections, config, doc, exec, images, inventory, lint, replay, run, settings, welcome)
+2025-12-03T11:49:15.043135+00:00 INFO 'ansible_navigator.main' Configuration failed, using default log file location. (/home/sdrcp/Documents/python/ansible/ansible-navigator.log) Log level set to debug
+2025-12-03T11:49:15.043179+00:00 INFO 'ansible_navigator.main' Review the hints and log file to see what went wrong.
+2025-12-03T11:49:18.655915+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2025-12-03T11:49:18.656410+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2025-12-03T11:49:18.656615+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /home/sdrcp/Documents/python/ansible/ansible.cfg
+2025-12-03T11:49:18.656832+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2025-12-03T11:49:29.010928+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2025-12-03T11:49:29.011454+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2025-12-03T11:49:29.011690+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /home/sdrcp/Documents/python/ansible/ansible.cfg
+2025-12-03T11:49:29.011942+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2025-12-03T11:49:29.125948+00:00 INFO 'ansible_navigator.actions.images._update_args' 'display_color' cannot be reconfigured. (restore original)
+2025-12-03T11:49:29.126070+00:00 INFO 'ansible_navigator.actions.images._update_args' 'mode' cannot be reconfigured. (restore original)
+2025-12-03T11:49:29.126119+00:00 INFO 'ansible_navigator.actions.images._update_args' 'display_color' cannot be reconfigured. (apply defaults)
+2025-12-03T11:49:29.126161+00:00 INFO 'ansible_navigator.actions.images._update_args' 'mode' cannot be reconfigured. (apply defaults)
+2025-12-03T11:49:29.126211+00:00 INFO 'ansible_navigator.actions.images._update_args' 'mode' cannot be reconfigured. (settings file)
+2025-12-03T11:49:29.126256+00:00 INFO 'ansible_navigator.actions.images._update_args' 'display_color' cannot be reconfigured (apply previous cli)
+2025-12-03T11:49:29.126299+00:00 INFO 'ansible_navigator.actions.images._update_args' 'mode' cannot be reconfigured (apply previous cli)
+2025-12-03T11:49:29.126339+00:00 INFO 'ansible_navigator.actions.images._update_args' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /home/sdrcp/Documents/python/ansible/ansible.cfg
+2025-12-03T11:49:29.126384+00:00 INFO 'ansible_navigator.actions.images._update_args' 'display_color' cannot be reconfigured. (post process)
+2025-12-03T11:49:29.126431+00:00 INFO 'ansible_navigator.actions.images._update_args' 'mode' cannot be reconfigured. (post process)
